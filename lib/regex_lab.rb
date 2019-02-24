@@ -18,4 +18,5 @@ end
 
 def valid_phone_number?(phone)
   binding.pry
+  text.scan(/\d{3}\D?\d{3}\D??\d{4}/)
 end
